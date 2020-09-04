@@ -7,10 +7,11 @@
 
 #root {
     margin: 0 auto;
-    background: url();
     font-size: 15px;
-    color: #e2fcef;
+    color: lavender;
     font-family: 'Quicksand';
+    background: url("Movie Images/Background.jpg") no-repeat center fixed;
+    background-size: cover;
 }
 
 header {
@@ -27,6 +28,20 @@ section {
     padding: 100px 0;
     width: 100%;
     max-width: 1200px;
+}
+
+header h1{
+    color:#2B3771;
+    font-weight: 700;
+}
+
+h2{
+    color: Lavender;
+}
+
+.series-details h2{
+    color: #511825;
+
 }
 
 nav{
@@ -74,5 +89,6 @@ form{
 span{
     font-weight: bolder;
     font-size: 20px;
+    color: yellow;
 }
 
