@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="favicon.png" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightbox.min.css" />
+    <script src="Map.js" async></script>
+    <script src="main.js" async></script>
+    <meta name="theme-color" content="#000" />
+    <meta name="description" content="eBook" />
+  </head>
+
+  <body>
+    <main id="root">
+      <header>
+        <title>Series reviewer</title>
+        <h2>Recommended Series</h2>
+      </header>
+      <section class="container" id="main-container">
+      </section>
+
+      <section class="container content-section">
+        <h2 class="section-header">Cart</h2>
+        <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price">£0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">
+          PURCHASE
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
